@@ -3,4 +3,34 @@ html {
 }
 
 body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*this centers the text above 800px */
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+#header-styling {
+  text-align: center;
+  background-color: indigo;
+  color: white;
+}
+
+#white-links {
+  color: lightblue;
+}
+
+.standard-padding {
+  padding: 20px 10px;
 }
