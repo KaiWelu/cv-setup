@@ -27,8 +27,32 @@ h3 {
   color: white;
 }
 
-#white-links {
-  color: lightblue;
+header a {
+  color: indigo;
+  background-color: white;
+  padding: 5px;
+  margin: 0px 3px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+a:link {
+  background-color: white;
+}
+
+a:visited {
+  color: indigo;
+}
+
+a:hover {
+  background-color: rgb(177, 79, 246);
+  color: white;
+  border: 2px solid white;
+}
+
+article + article {
+  padding: 20px 0px;
+  border-top: 2px solid indigo;
 }
 
 .standard-padding {
