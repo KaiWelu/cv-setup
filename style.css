@@ -54,6 +54,17 @@ main article + article {
   margin-top: 20px;
 }
 
+/*putting the heading and subheading inline*/
+
+.experience-heading {
+  display: inline;
+}
+
+.experience-subheading {
+  display: inline;
+  margin-left: 0.7rem;
+}
+
 a:link {
   background-color: white;
 }
