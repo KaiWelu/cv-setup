@@ -9,7 +9,7 @@ html {
 /*this centers the text above 800px */
 
 main {
-  max-width: 800px;
+  max-width: 60ch;
   margin: 0 auto;
 }
 
@@ -23,6 +23,7 @@ h3 {
   text-align: center;
   background-color: indigo;
   color: white;
+  padding-top: 0.1rem;
   /*this fixes the header on top*/
   position: sticky;
   top: 0;
@@ -36,6 +37,21 @@ h3 {
   background-color: hotpink;
   border-radius: 5px;
   padding: 0.5rem;
+}
+
+/* this puts in relative units for the title and profession font size*/
+
+header div {
+  font-size: 4rem;
+}
+
+header div h1 {
+  font-size: 1em;
+  margin-top: 0.7rem;
+}
+
+header div p {
+  font-size: 0.25em;
 }
 
 header > p > a {
