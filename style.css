@@ -2,7 +2,8 @@ html {
   box-sizing: border-box;
   margin: 0;
   font-family: "Montserrat", sans-serif;
-  scroll-padding-top: 152px; /*this adds padding to account for the fixed header*/
+  scroll-padding-top: 180px; /*this adds padding to account for the fixed header*/
+  font-size: 16px;
 }
 
 /*this centers the text above 800px */
@@ -30,43 +31,43 @@ h3 {
 
 #hire-me {
   position: absolute;
-  right: 15px;
-  top: 15px;
+  right: 1rem;
+  top: 1rem;
   background-color: hotpink;
   border-radius: 5px;
-  padding: 6px;
+  padding: 0.5rem;
 }
 
 header > p > a {
   color: indigo;
   background-color: white;
-  padding: 8px;
+  padding: 0.5rem;
   border-radius: 5px;
   text-decoration: none;
   top: -250px;
 }
 
 header > p {
-  margin-top: 20px;
+  margin-top: 1.5rem;
 }
 
 header a + a {
-  margin-left: 10px;
+  margin-left: 0.6rem;
 }
 
 main > article {
-  padding: 20px 20px;
+  padding: 1rem;
   position: relative;
 }
 
 article > h2 {
   position: relative;
-  left: -20px;
+  left: -1rem;
 }
 
 main article + article {
   border-top: 2px solid indigo;
-  margin-top: 20px;
+  margin-top: 1.5rem;
 }
 
 /*putting the heading and subheading inline*/
@@ -104,5 +105,5 @@ a:hover {
 }
 
 .standard-padding {
-  padding: 10px 10px;
+  padding: 0.8rem;
 }
