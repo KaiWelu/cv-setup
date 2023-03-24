@@ -20,6 +20,10 @@ h3 {
   font-family: inherit;
 }
 
+aside {
+  visibility: none;
+}
+
 /*medium breakpoint*/
 @media screen and (min-width: 786px) {
   html {
@@ -35,7 +39,8 @@ h3 {
     position: fixed;
     right: 1rem;
     top: 15rem;
-    background-color: hotpink;
+    background-color: rgb(161, 221, 237);
+    color: black;
     border-radius: 5px;
     padding: 0.5rem;
   }
@@ -43,7 +48,7 @@ h3 {
 
 #header-styling {
   text-align: center;
-  background-color: indigo;
+  background-color: rgb(5, 80, 94);
   color: white;
   padding-top: 0.1rem;
   /*this fixes the header on top*/
@@ -68,7 +73,7 @@ header div p {
 }
 
 header > p > a {
-  color: indigo;
+  color: rgb(5, 80, 94);
   background-color: white;
   padding: 0.5rem;
   border-radius: 5px;
@@ -95,7 +100,7 @@ article > h2 {
 }
 
 main article + article {
-  border-top: 2px solid indigo;
+  border-top: 2px solid rgb(5, 80, 94);
   margin-top: 1.5rem;
 }
 
@@ -115,17 +120,17 @@ a:link {
 }
 
 a:visited {
-  color: indigo;
+  color: rgb(5, 80, 94);
 }
 
 a:hover {
-  background-color: rgb(177, 79, 246);
+  background-color: rgb(5, 80, 94);
   color: white;
-  border: 2px solid white;
+  border: 2px solid rgb(161, 221, 237);
 }
 
 ::selection {
-  background-color: rgb(177, 79, 246);
+  background-color: rgb(5, 80, 94);
   color: white;
 }
 
@@ -135,4 +140,10 @@ a:hover {
 
 .standard-padding {
   padding: 0.8rem;
+}
+
+_article:hover {
+  background-color: rgb(161, 221, 237);
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
 }
