@@ -30,9 +30,19 @@ aside {
     font-size: 18px;
   }
 
+  .article-header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .article-header > p {
+    margin-top: 1rem;
+  }
+
   .navbox {
     flex-direction: row;
-    gap: ;
+    gap: 0;
   }
 
   header a + a {
@@ -55,6 +65,16 @@ aside {
 @media screen and (min-width: 992px) {
   html {
     font-size: 20px;
+  }
+
+  .article-header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .article-header > p {
+    margin-top: 1rem;
   }
 
   #hire-me {
@@ -109,6 +129,7 @@ header > p > a {
   border-radius: 5px;
   text-decoration: none;
   top: -250px;
+  border: 2px solid rgb(5, 80, 94);
 }
 
 header > p {
@@ -122,6 +143,12 @@ header > p {
 main > article {
   padding: 1rem;
   position: relative;
+}
+
+main article header {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
 }
 
 article > h2 {
@@ -138,11 +165,14 @@ main article + article {
 
 .experience-heading {
   display: inline;
+  _background-color: brown;
 }
 
 .experience-subheading {
-  display: inline;
-  margin-left: 0.7rem;
+  _display: inline;
+  _background-color: blueviolet;
+  margin-top: 0.5rem;
+  padding: 0;
 }
 
 a:link {
