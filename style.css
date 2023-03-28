@@ -101,6 +101,7 @@ aside {
 #header-styling {
   text-align: center;
   background-color: rgb(5, 80, 94);
+  background-image: linear-gradient(rgba(81, 198, 230, 0.636), rgb(5, 80, 94));
   color: white;
   padding-top: 0.1rem;
   /*this fixes the header on top*/
@@ -159,6 +160,15 @@ article > h2 {
 main article + article {
   border-top: 2px solid rgb(5, 80, 94);
   margin-top: 1.5rem;
+}
+
+.page-footer > p {
+  text-align: center;
+  background-color: rgb(5, 80, 94);
+  color: white;
+  padding: 1em;
+  margin-bottom: 0px;
+  background-image: linear-gradient(rgb(5, 80, 94), rgba(81, 198, 230, 0.636));
 }
 
 /*putting the heading and subheading inline*/
