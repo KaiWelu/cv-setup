@@ -65,6 +65,7 @@ aside {
     color: var(--alternate-text-color);
     border-radius: 5px;
     padding: 0.5rem;
+    transition: scale, 0.5s;
   }
 }
 
@@ -94,6 +95,7 @@ aside {
     color: var(--alternate-text-color);
     border-radius: 5px;
     padding: 0.5rem;
+    transition: scale, 0.5s;
   }
 
   #navbox {
@@ -143,6 +145,7 @@ aside {
   text-decoration: none;
   top: -250px;
   border: 2px solid var(--main-color);
+  transition: background-color, 0.5s;
 }
 
 .headerS > p {
@@ -211,6 +214,18 @@ a:hover {
   transition: background-color, 0.5s;
   color: var(--alternate-text-color);
   border: 2px solid var(--second-color);
+}
+
+.headerS:hover #hire-me {
+  background-color: hotpink;
+  transition: scale, 0.5s;
+  scale: 1.2;
+  border-right: 2px solid lightgray;
+  border-bottom: 2px solid lightgray;
+}
+
+#hire-me:focus-within {
+  background-color: bisque;
 }
 
 ::selection {
